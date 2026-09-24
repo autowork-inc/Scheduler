@@ -5,4 +5,4 @@ This is a desktop application I built using React and Electron to manage local m
 The frontend is a React SPA styled with Tailwind CSS, communicating with an Electron backend via IPC. The main dashboard features an account manager and a calendar panel where you can generate weekly or monthly content plans. To prevent mistakes, I added a rules engine where you can map specific local folders to account statuses. The most complex part of the app is the export pipeline. Once the schedule is set, the app triggers a process that collects all planned media and hands it off to a separate Python script. This script processes the files and prepares the final payload for ADB to push the files directly to connected physical phones
 
 ## Tech Stack
-**React, Tailwind CSS, React Router, Electron, Python**
+**React, Tailwind CSS, React Router, Electron, Python 3.11**
